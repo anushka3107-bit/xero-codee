@@ -3,7 +3,7 @@ import Image from "next/image";
 import CardScreen from "../Images/Cards Screen.png";
 import CardScreen1 from "../Images/Cards Screen (1).png";
 
-const MainFunctions = () => {
+const Functionalities = () => {
   return (
     <div className="items-center justify-center mb-24">
       <div className="bg-mainColor mt-20 mx-20 rounded-[35px]">
@@ -43,4 +43,4 @@ const MainFunctions = () => {
   );
 };
 
-export default MainFunctions;
+export default Functionalities;

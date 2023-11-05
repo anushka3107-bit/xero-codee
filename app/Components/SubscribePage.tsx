@@ -1,7 +1,7 @@
 import Image from "next/image";
 import PaperPlane from "../Images/Paper Plane.png";
 
-const Subscribe = () => {
+const SubscribePage = () => {
   return (
     <div className="justify-center items-center">
       <div className="flex flex-col bg-powderBlue justify-center items-center rounded-[60px] max-w-[1398px] mt-20 py-16 mb-64">
@@ -28,4 +28,4 @@ const Subscribe = () => {
   );
 };
 
-export default Subscribe;
+export default SubscribePage;

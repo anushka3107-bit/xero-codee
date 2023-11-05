@@ -1,7 +1,5 @@
 import Image from 'next/image';
 import Line from "../../Images/Line 38.png";
-import React from 'react'
-
 
 
 export default function CommonCardHeader({

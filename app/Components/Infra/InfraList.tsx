@@ -1,7 +1,7 @@
 import data from "@/app/data/data";
-import InfrastructureCard from "./InfrastructureCard";
+import InfraCard from "./InfraCard";
 
-const InfrastructureMain = () => {
+const InfraList = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-white">
       <div className="mt-40 mb-20">
@@ -14,7 +14,7 @@ const InfrastructureMain = () => {
       <div className="grid grid-rows-2 grid-cols-2 gap-32 mb-40">
         {data.map((item) => {
           return (
-            <InfrastructureCard
+            <InfraCard
               id={item.id}
               image={item.image}
               title={item.title}
@@ -27,4 +27,4 @@ const InfrastructureMain = () => {
   );
 };
 
-export default InfrastructureMain;
+export default InfraList;

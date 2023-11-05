@@ -3,7 +3,7 @@ import Image from "next/image";
 import Rocket from "../../Images/Rocket.png";
 import CardComponents from "./CardComponents";
 
-const Xcodeway = () => {
+const Xcodeeway = () => {
   return (
     <div className=" max-w-[1398px] rounded-[35px] flex flex-col">
       <div className="flex w-[100%] items-center justify-center mt-10 font-poppins font-semibold text-[44px] leading-[55px]">
@@ -21,4 +21,4 @@ const Xcodeway = () => {
   );
 };
 
-export default Xcodeway;
+export default Xcodeeway;

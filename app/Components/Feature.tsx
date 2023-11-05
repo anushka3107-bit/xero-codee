@@ -2,8 +2,7 @@ import Image from "next/image";
 import Img1 from "../Images/Group 25482.png";
 import Img2 from "../Images/Group 25483.png";
 
-
-const ExtraFeature = () => {
+const Feature = () => {
   return (
     <div className="flex gap-x-56 items-center justify-center mt-20">
       <div className="w-[50%] flex flex-col justify-center items-center">
@@ -21,4 +20,4 @@ const ExtraFeature = () => {
     </div>
   );
 };
-export default ExtraFeature;
+export default Feature;

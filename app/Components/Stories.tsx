@@ -6,7 +6,7 @@ import BlueEllipse from "../Images/Ellipse 643.png";
 import WhiteEllipse from "../Images/Ellipse 644.png";
 import Dots from "../Images/more_vert_black_24dp 1.png";
 
-const SuccessStories = () => {
+const Stories = () => {
   return (
     <div className="flex flex-col items-center justify-center max-w-[1215px] mt-36">
       <h1 className=" font-semibold text-center font-poppins text-[44px] text-successColor leading-[61.6px] ">
@@ -24,8 +24,10 @@ const SuccessStories = () => {
           <Image src={Quote} width={60} height={71.07} alt="quotes" />
         </div>
 
-        <div className="flex max-w-[961px] bg-white font-Nunito rounded-tr-2xl rounded-br-2xl 
-        shadow-[-5px_-5px_15px_0px_rgba(0,0,0,0.1)_inset] drop-shadow-[5px_5px_15px_rgba(0,0,0,0.1)]">
+        <div
+          className="flex max-w-[961px] bg-white font-Nunito rounded-tr-2xl rounded-br-2xl 
+        shadow-[-5px_-5px_15px_0px_rgba(0,0,0,0.1)_inset] drop-shadow-[5px_5px_15px_rgba(0,0,0,0.1)]"
+        >
           <div className="max-w-[644px] pl-8 pt-12 mr-10">
             <p className="text-[16.2px] font-normal leading-7">
               There are many variations of passages of Lorem Ipsum available but
@@ -70,4 +72,4 @@ const SuccessStories = () => {
   );
 };
 
-export default SuccessStories;
+export default Stories;

@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
-import Frame25311 from "../Images/Frame 25311.png"
+import Frame25311 from "../Images/Frame 25311.png";
 import Nav from "../Images/Frame.svg";
 import Frame from "../Images/Frame.png";
 
-const HomePage1 = () => {
+const ContentPage = () => {
   return (
     <div className="mt-20 items-center justify-center">
       <Image
@@ -38,7 +38,6 @@ const HomePage1 = () => {
       </div>
     </div>
   );
-}
+};
 
-export default HomePage1
-
+export default ContentPage;

@@ -1,8 +1,7 @@
 import { CardInterface } from "@/app/data/props";
 import Image from "next/image";
 
-
-const InfrastructureCard = ({ title, subtitle, image }: CardInterface) => {
+const InfraCard = ({ title, subtitle, image }: CardInterface) => {
   return (
     <div
       className="flex items-center justify-center shadow-sm shadow-[0px 20px 80px 0px #00000008]
@@ -24,4 +23,4 @@ const InfrastructureCard = ({ title, subtitle, image }: CardInterface) => {
   );
 };
 
-export default InfrastructureCard;
+export default InfraCard;
